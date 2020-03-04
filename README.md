@@ -1,11 +1,12 @@
-# Título del trabajo
+El gran casino de Mostoles
 
-Descripción breve del proyecto a realizar (2-3 frases).
+Vamos a realizar un programa que te permita seleccionar y jugar al BlackJack y a las tragaperras.El usuario podra introducir una cuenta personal para que se guarde su dinero en todo momento
 
 ## Integrantes del equipo
-
-Nombres, apellidos, y usuario GitHub de los integrantes del equipo.
+Arturo Cañizares Romero---Elbirras---55542
+Eduardo Gonzalez Ferreras---eduglezonisntagram---55275
+Raul de Pablo Redondo---rauldpr--55208
 
 ## Objetivos del trabajo
+Poder jugar a el BlackJack y a las tragaperras con todas sus normas.
 
-Lista de los objetivos que se persiguen con el trabajo propuesto.
