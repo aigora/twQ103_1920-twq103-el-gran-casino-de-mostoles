@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <string.h>
+//Menu para trabajo informatica de Arturo Cañizares, Eduardo Gonzalez y Raul de Pablo
+int main(){
+	float apuesta,dinero=500;
+	int final,edad,juego;
+	char username[100];
+	printf("Bienvenido al Gran Casino de Mostoles \n");
+	printf("Por favor introduzca su nombre de usuario:\n");
+	gets(username);
+	printf("Por favor introduce tu edad:");
+	scanf("%d",&edad);
+	
+	if (edad<18){
+		printf("Lo siento eres menor de edad, no puedes entrar al casino");
+		
+		return 0;
+	}
+	printf("Nuestro casino dispone de BlackJack y tragaperras\n");
+	printf("Empezaras con 500 euros y si te quedas sin dinero se acaba el juego\nBuena suerte\n");
+	do{
+	
+	printf("< 1 para BlackJack, 2 para tragaperras>:");
+	scanf("%d",&juego);
+	switch(juego){
+	
+	case 1:
+		printf("BlackJack\n");
+		printf("Si quieres volver a jugar introduce cualquier numero distinto de 0, si quieres finalizar la partida, introduce 0:");
+		scanf("%d",&final);
+		break;
+	case 2:
+		printf("Tragaperras\n");
+		printf("Si quieres volver a jugar introduce cualquier numero distinto de 0, si quieres finalizar la partida, introduce 0:");
+		scanf("%d",&final);
+		break;
+	}
+}while(final<0||final>0);
+}
